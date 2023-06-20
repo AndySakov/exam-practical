@@ -1,0 +1,62 @@
+.bg-lincoln {
+  background-color: #c13e30;
+}
+
+.collapse {
+  max-width: fit-content;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.nav-link {
+  font-size: 1rem;
+  padding: 1.5rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  transition: 0.35s;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  font-weight: semibold;
+  background-color: #cacaca7a;
+}
+
+.carousel-item {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.admissions {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.82) 0%,
+      rgba(0, 0, 0, 0.82) 100%
+    ),
+    url("https://img1.wsimg.com/isteam/ip/0d532241-dda1-42d3-9ca9-6c0bd972594a/IMG-20210608-WA0002.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:3840,m");
+}
+
+.admissions-header {
+  font-family: "Arial";
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.btn-apply {
+  height: 70px;
+}
